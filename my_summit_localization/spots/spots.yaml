@@ -1,0 +1,31 @@
+
+room:
+    position:
+        x: -4.271
+        y: -3.686
+        z: 0.0
+    orientation:
+        x: 0.0
+        y: 0.0
+        z: 0.049
+        w: 0.999
+table:
+    position:
+        x: 3.727
+        y: 1.621
+        z: 0.0
+    orientation:
+        x: 0.0
+        y: 0.0
+        z: 0.489
+        w: 0.872
+turtle:
+    position:
+        x: -2.769
+        y: 2.925
+        z: 0.0
+    orientation:
+        x: 0.0
+        y: 0.0
+        z: 0.723
+        w: 0.691

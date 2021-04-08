@@ -1,0 +1,8 @@
+global_frame: summit_xl_a_odom
+rolling_window: true
+track_unknown_space: true
+
+plugins:
+  - {name: obstacles_laser,           type: "costmap_2d::ObstacleLayer"}
+  - {name: inflation,                 type: "costmap_2d::InflationLayer"}
+  - {name: static_layer, type: "costmap_2d::StaticLayer"}

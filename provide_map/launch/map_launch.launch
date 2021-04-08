@@ -1,0 +1,7 @@
+<launch>
+
+ <node pkg="map_server" type="map_server" name="map_server"  output="screen"
+ args="$(find my_summit_mapping)/maps/project_map.yaml">
+
+  </node>
+</launch>

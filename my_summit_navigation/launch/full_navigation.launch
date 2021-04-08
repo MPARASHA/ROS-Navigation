@@ -1,0 +1,9 @@
+<launch>
+
+    <include file="$(find my_summit_path_planning)/launch/my_path_planning.launch" />
+
+    <node pkg="my_summit_navigation" type="get_coordinates_service_server.py" name="get_coordinates_node" output="screen">
+
+    </node>
+
+</launch>
